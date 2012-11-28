@@ -16,6 +16,7 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Canvas canvas = Canvas.getCanvas();
 
     /**
      * Constructor for objects of class Picture
@@ -53,6 +54,10 @@ public class Picture
         sun.moveVertical(-10);
         sun.changeSize(60);
         sun.makeVisible();
+        while (true) {
+			canvas.wait(500);
+			sun.moveDown();
+        }
     }
 
     /**
