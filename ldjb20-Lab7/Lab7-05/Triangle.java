@@ -21,7 +21,7 @@ public class Triangle {
 			lenSide1 = var;
 		}
 		else {
-			System.err.println("Error: Non-positive lenSide1 given.")
+			System.err.println("Error: Non-positive lenSide1 given.");
 		}
 	}
 	
@@ -34,7 +34,7 @@ public class Triangle {
 			lenSide2 = var;
 		}
 		else {
-			System.err.println("Error: Non-positive lenSide2 given.")
+			System.err.println("Error: Non-positive lenSide2 given.");
 		}
 	}
 	
@@ -47,7 +47,7 @@ public class Triangle {
 			lenSide3 = var;
 		}
 		else {
-			System.err.println("Error: Non-positive lenSide3 given.")
+			System.err.println("Error: Non-positive lenSide3 given.");
 		}
 	}
 	
