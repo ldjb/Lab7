@@ -17,7 +17,12 @@ public class Triangle {
 	}
 	
 	public void setLenSide1(float var) {
-		lenSide1 = var;
+		if (var > 0) {
+			lenSide1 = var;
+		}
+		else {
+			System.err.println("Error: Non-positive lenSide1 given.")
+		}
 	}
 	
 	public float getLenSide1() {
@@ -25,7 +30,12 @@ public class Triangle {
 	}
 	
 	public void setLenSide2(float var) {
-		lenSide2 = var;
+		if (var > 0) {
+			lenSide2 = var;
+		}
+		else {
+			System.err.println("Error: Non-positive lenSide2 given.")
+		}
 	}
 	
 	public float getLenSide2() {
@@ -33,7 +43,12 @@ public class Triangle {
 	}
 	
 	public void setLenSide3(float var) {
-		lenSide3 = var;
+		if (var > 0) {
+			lenSide3 = var;
+		}
+		else {
+			System.err.println("Error: Non-positive lenSide3 given.")
+		}
 	}
 	
 	public float getLenSide3() {
