@@ -11,9 +11,15 @@ public class Triangle {
 	}
 	
 	public Triangle(float var1, float var2, float var3) {
-		lenSide1 = var1;
-		lenSide2 = var2;
-		lenSide3 = var3;
+		this();
+		if (var1 > 0 && var2 > 0 && var3 > 0) {
+			lenSide1 = var1;
+			lenSide2 = var2;
+			lenSide3 = var3;
+		}
+		else {
+			System.err.println("Error: Non-positive lenSide given.");
+		}
 	}
 	
 	public void setLenSide1(float var) {
