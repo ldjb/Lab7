@@ -75,4 +75,14 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * Remove all money from machine.
+     */
+    public void empty()
+    {
+    	// Set the total field to zero.
+    	total = 0;
+    }
+    
 }
