@@ -60,5 +60,12 @@ public class Triangle {
 	public float getLenSide3() {
 		return lenSide3;
 	}
+	
+	public float area() {
+		// Use Heron's formula to calculate area
+		float s = (lenSide1 + lenSide2 + lenSide3) / 2;
+		float T = (float)Math.sqrt((double)(s * (s - lenSide1) * (s - lenSide2) * (s - lenSide3)));
+		return T;
+	}
 
 }
