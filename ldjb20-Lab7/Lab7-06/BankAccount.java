@@ -16,5 +16,21 @@ public class BankAccount {
 	public int getAccNum() {
 		return accNum;
 	}
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	public void setFirstName(String var) {
+		firstName = var;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public void setLastName(String var) {
+		lastName = var;
+	}
 
 }
