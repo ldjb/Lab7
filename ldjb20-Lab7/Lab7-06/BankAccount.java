@@ -32,5 +32,13 @@ public class BankAccount {
 	public void setLastName(String var) {
 		lastName = var;
 	}
+	
+	public double getBalance() {
+		return balance;
+	}
+	
+	public double modBalance(double var) {
+		return balance += var;
+	}
 
 }
