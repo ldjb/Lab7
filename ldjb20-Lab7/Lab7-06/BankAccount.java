@@ -12,5 +12,9 @@ public class BankAccount {
 		lastName = var3;
 		balance = 0;
 	}
+	
+	public int getAccNum() {
+		return accNum;
+	}
 
 }
