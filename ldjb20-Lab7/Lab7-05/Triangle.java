@@ -67,5 +67,10 @@ public class Triangle {
 		float T = (float)Math.sqrt((double)(s * (s - lenSide1) * (s - lenSide2) * (s - lenSide3)));
 		return T;
 	}
+	
+	public float perimeter() {
+		// Calculate perimeter
+		return lenSide1 + lenSide2 + lenSide3;
+	}
 
 }
