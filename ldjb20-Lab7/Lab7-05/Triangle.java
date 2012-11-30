@@ -22,6 +22,10 @@ public class Triangle {
 		}
 	}
 	
+	public Triangle(double var1, double var2, double var3) {
+		this((float)var1, (float)var2, (float)var3);
+	}
+	
 	public void setLenSide1(float var) {
 		if (var > 0) {
 			lenSide1 = var;
